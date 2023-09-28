@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+.body1 {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 220px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  border-style: solid;
+  background-color: rgb(49, 44, 44);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.r1,
+.r2,
+.r3,
+.r4 {
+  display: flex;
+  column-gap: 15px;
+}
+.op {
+  background-color: orange;
+}
+.answer {
+  align-items: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+}
